@@ -1,0 +1,27 @@
+{
+  "name": "fittoscrape",
+  "version": "1.0.0",
+  "description": "A web app that lets users leave comments on the latest news, using Mongoose and CheerioJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BlakeRedwolf/fitToScrape.git"
+  },
+  "author": "Blake Redwolf",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BlakeRedwolf/fitToScrape/issues"
+  },
+  "homepage": "https://github.com/BlakeRedwolf/fitToScrape#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "cheerio": "^1.0.0-rc.1",
+    "express": "^4.15.3",
+    "express-handlebars": "^3.0.0",
+    "mongoose": "^4.10.5",
+    "request": "^2.81.0"
+  }
+}
